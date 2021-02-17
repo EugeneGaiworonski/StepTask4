@@ -33,8 +33,8 @@ int main()
 
         int** iArray = new int *[iSize];
         for(int i = 0; i < iSize; i++) { iArray[i] = new int[i];}
-        int* iHorzSum  = new int[iSize] {0};
-        int* iVertSum  = new int[iSize] {0};
+        int* iHorzSum  = new int[iSize];
+        int* iVertSum  = new int[iSize];
         for (int i = 0; i < iSize; i++) {
             iHorzSum[i] = 0; iVertSum[i] = 0;
         }
